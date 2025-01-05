@@ -15,15 +15,6 @@
 9. Update the dvc.yaml
 
 
-Azure: 
 
-Registry name : chickenapp
-Login server : chickenapp.azurecr.io
-
-Password : dwTTszYPDlufGBxLTtsC/m+VvExiRVKWz6dG6e+/62+ACRDtZgo2
-
-
-
-AZURE-CICD-Deployment-with-Github-Actions
 
 
