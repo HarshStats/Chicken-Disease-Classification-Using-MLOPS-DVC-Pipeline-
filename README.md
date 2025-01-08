@@ -13,6 +13,54 @@ This project leverages advanced deep learning and MLOps technologies to develop 
   - **CI/CD:** Automated testing and deployment using GitHub Actions.
   - **Cloud Deployment:** Configured for both AWS and Azure.
 
+# Results and Evaluation
+
+This section presents the evaluation metrics and visualizations for the model's performance in classifying healthy and coccidiosis samples.
+
+
+## **Confusion Matrix**
+The confusion matrix provides a summary of the model's classification results.
+
+![Confusion Matrix](c_m.png)
+
+- **True Positives (Coccidiosis correctly identified):** 114  
+- **True Negatives (Healthy correctly identified):** 108  
+- **False Positives (Healthy misclassified as Coccidiosis):** 12  
+- **False Negatives (Coccidiosis misclassified as Healthy):** 4  
+
+**Metrics:**
+- **Accuracy:** 93.3%  
+- **Precision (Coccidiosis):** 90.5%  
+- **Recall (Coccidiosis):** 96.6%  
+
+
+## **ROC Curve**
+The Receiver Operating Characteristic (ROC) curve evaluates the model's discriminative ability across different thresholds.
+
+![ROC Curve](r_o_c.png)
+
+- **AUC (Area Under the Curve):** 0.99  
+
+The high AUC indicates excellent performance, with the model maintaining a low False Positive Rate while achieving a high True Positive Rate.
+
+
+## **Precision-Recall Curve**
+The Precision-Recall curve highlights the trade-off between precision and recall.
+
+![Precision-Recall Curve](p_r.png)
+
+- The model maintains high precision (low False Positives) even at higher recall (low False Negatives).  
+- A steep drop in precision at the far right indicates more misclassifications if optimized excessively for recall.
+
+
+## **Summary**
+1. The model demonstrates excellent classification performance with a high accuracy of **93.3%**.  
+2. It achieves an **AUC-ROC of 0.99**, showcasing its ability to effectively distinguish between Healthy and Coccidiosis cases.  
+3. The Precision-Recall curve confirms a strong balance between precision and recall, ensuring minimal misclassification of samples.
+
+These results validate the effectiveness of the model in addressing the classification problem.
+
+
 ## Model Performance
 
 The model was trained on a dataset of chicken fecal images and achieved the following performance metrics:
