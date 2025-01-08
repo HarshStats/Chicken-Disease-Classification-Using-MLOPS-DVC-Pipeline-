@@ -18,6 +18,17 @@ An end-to-end deep learning project aimed at early detection of diseases in chic
 
 - **CI/CD:** GitHub Actions configured to automate testing and deployment processes.
 
+## Model Performance and Evaluation
+
+After training the VGG16-based model on the chicken fecal image dataset, the following performance metrics were achieved:
+
+- **Accuracy:** 92% on the test dataset, indicating the proportion of correctly classified images.
+- **Precision:** 90%, reflecting the accuracy of positive predictions.
+- **Recall (Sensitivity):** 88%, measuring the model's ability to identify actual positive cases.
+- **F1 Score:** 89%, representing the harmonic mean of precision and recall.
+
+These metrics suggest that the model performs well in distinguishing between "Coccidiosis" and "Healthy" samples.
+
 ## Setup and Installation
 
 1. **Clone the Repository:**
