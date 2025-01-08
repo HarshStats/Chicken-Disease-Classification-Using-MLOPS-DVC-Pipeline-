@@ -53,7 +53,7 @@ The Precision-Recall curve highlights the trade-off between precision and recall
 - A steep drop in precision at the far right indicates more misclassifications if optimized excessively for recall.
 
 
-## **Summary**
+## **Results in Nutshell**
 1. The model demonstrates excellent classification performance with a high accuracy of **93.3%**.  
 2. It achieves an **AUC-ROC of 0.99**, showcasing its ability to effectively distinguish between Healthy and Coccidiosis cases.  
 3. The Precision-Recall curve confirms a strong balance between precision and recall, ensuring minimal misclassification of samples.
