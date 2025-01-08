@@ -21,26 +21,26 @@ An end-to-end deep learning project aimed at early detection of diseases in chic
 ## Setup and Installation
 
 1. **Clone the Repository:**
-   bash
-   git clone https://github.com/HarshStats/Chicken-Disease-Classification-Using-MLOPS-DVC-Pipeline-.git
+-   bash
+-   git clone https://github.com/HarshStats/Chicken-Disease-Classification-Using-MLOPS-DVC-Pipeline-.git
 
 2. **Create a Conda Environment:**
-    conda create -n chicken python=3.8 -y
-    conda activate chicken
+-   conda create -n chicken python=3.8 -y
+-    conda activate chicken
 
 3. **Install Requirements:**
-    pip install -r requirements.txt
+-   pip install -r requirements.txt
 
 4. **Run the Application:**
-    python app.py
+-   python app.py
 
 ## DVC Commands
 
-**Initialize DVC: dvc init**
-**Reproduce Pipeline: dvc repro**
-**Visualize Pipeline: dvc dag**
+- **Initialize DVC: dvc init**
+- **Reproduce Pipeline: dvc repro**
+- **Visualize Pipeline: dvc dag**
 
 ## MLflow Tracking
 
-**mlflow ui**
+- **mlflow ui**
 
